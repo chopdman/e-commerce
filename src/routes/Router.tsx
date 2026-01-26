@@ -6,6 +6,7 @@ import CustomizeDialog from "../components/CustomizationDialog";
 import CartPage from "../pages/CartPage";
 import NotFound from "../components/NotFound";
 import About from "../pages/About";
+import { ProductTable } from "../components/ProductTable";
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: "about",
         element: <About />,
+      },
+      {
+        path: "table",
+        element:<ProductTable/>
       },
       {
         path: "*",

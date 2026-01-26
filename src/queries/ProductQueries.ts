@@ -14,7 +14,7 @@ export const useGetProduct = (id) =>
     queryFn: () => fetchProductById(id),
     enabled: !!id,
   });
-
+ 
   //pending to impliment in UI
 export const useAddProduct = () => {
   const queryClient = useQueryClient();

@@ -15,7 +15,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 const queryClinet = new QueryClient({
   defaultOptions: {
     queries: {
-      gcTime: 1000 * 60 ,
+      gcTime: 1000 * 60  ,
     },
   },
 });
